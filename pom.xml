@@ -6,7 +6,11 @@
 	<groupId>com.janita</groupId>
 	<artifactId>elk-log-parent</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<packaging>jar</packaging>
+    <modules>
+        <module>elk-install</module>
+		<module>elk-client-one</module>
+	</modules>
+    <packaging>pom</packaging>
 
 	<name>elk-log-parent</name>
 	<description>Demo project for Spring Boot</description>
